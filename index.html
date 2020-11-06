@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>List of User</title>
+   <link rel="stylesheet" href="design.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+  </head>
+
+  <body>
+    <h1>User</h1>
+
+    <i class="glyphicon glyphicon-user"></i>
+
+    <div id="container">
+      <form>
+        <div>
+          <label for="user_name">Username</label>
+          <input id="user_name" type="text" />
+        </div>
+        <div>
+          <label for="user_info">User Info</label>
+          <input id="user_info" type="text" />
+        </div>
+        <div>
+          <button id="save_user" class="sButton" type="button">Save</button>
+        </div>
+      </form>
+    </div>
+
+    <hr/>
+
+    <div id="container">
+      <h2>User List</h2>
+      <ul id="user_table"></ul>
+
+    </div>
+     <script src="functions.js"></script>
+  </body>
+</html>
