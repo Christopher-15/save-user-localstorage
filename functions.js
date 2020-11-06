@@ -94,9 +94,7 @@
       userToUpdate.userInfo = Info;
       userList[pos] = userToUpdate;
 
-      userTag.lastChild.textContent = userToUpdate.userName;
-
-      userTag.lastChild.textContent = userToUpdate.userInfo;
+      userTag.lastChild.textContent = userToUpdate.userName+(" ")+userToUpdate.userInfo;
 
       syncUser();
 
